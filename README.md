@@ -2,15 +2,20 @@
 ***Notice: this code is still in development***
 
 ### Author: akcse116 ###
+<br/><br/>
 
 ## Description ##
 *This is a singly-linked list implementation in Javascript
 intended as educational material which I composed for practice.
+<br/><br/>
 
 ## Components ##
 
 ### List ###
+<br/><br/>
+
 ### Node ###
+<br/><br/>
 
 
 #### License ####
