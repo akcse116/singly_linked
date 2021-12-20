@@ -48,8 +48,9 @@ class Node{
  * Singly-linked list. Can be used as stack since ordering is LIFO by design. 
  * 
  * Methods:
- * getLen - return amount of items in list
+ * getLen - returns number of items in list
  * top - return value at beginning of list
+ * remove - return amount of items in list
  * push - insert a value to end
  * pop - remove last value from the list
  */
@@ -66,7 +67,7 @@ class SLinkedList{
         catch(error){console.error(error)}
     }
 
-    getVal(value){
+    remove(value){
         let prev = this.head;
         if (prev == val){
             this.head = prev.getNext();
