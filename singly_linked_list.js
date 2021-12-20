@@ -85,6 +85,8 @@ class SLinkedList{
         }
     }
 
+    /* insert(){} */
+
     push(node){
         node.setNext(this.head);
         this.head = node;
